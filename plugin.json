@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "passwordisincorect"
+  },
+  "description": "Write, update or audit evidence-backed repository READMEs without inventing commands, links, or claims.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Audit my repository README without changing files.",
+          "Write a README based on verified repository evidence; show a draft before editing."
+        ],
+        "developerName": "passwordisincorect",
+        "displayName": "GitHub README Generator",
+        "shortDescription": "Verified GitHub README drafts"
+      }
+    }
+  },
+  "keywords": [
+    "readme",
+    "documentation",
+    "github",
+    "agent-skills"
+  ],
+  "license": "MIT",
+  "name": "github-readme-generator",
+  "repository": "https://github.com/passwordisincorect/GitHub-README-Generator",
+  "version": "1.0.0-beta.1"
+}

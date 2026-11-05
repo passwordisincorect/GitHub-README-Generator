@@ -1,0 +1,29 @@
+{
+  "interface": {
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Audit my repository README without changing files.",
+      "Write a README based on verified repository evidence; show a draft before editing."
+    ],
+    "developerName": "passwordisincorect",
+    "displayName": "GitHub README Generator",
+    "shortDescription": "Verified GitHub README drafts",
+    "longDescription": "Write, update or audit evidence-backed repository READMEs without inventing commands, links, or claims.",
+    "capabilities": []
+  },
+  "name": "github-readme-generator",
+  "version": "1.0.0-beta.1",
+  "description": "Write, update or audit evidence-backed repository READMEs without inventing commands, links, or claims.",
+  "author": {
+    "name": "passwordisincorect"
+  },
+  "keywords": [
+    "readme",
+    "documentation",
+    "github",
+    "agent-skills"
+  ],
+  "repository": "https://github.com/passwordisincorect/GitHub-README-Generator",
+  "license": "MIT",
+  "skills": "./skills"
+}
